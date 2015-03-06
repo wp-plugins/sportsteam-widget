@@ -1,0 +1,45 @@
+
+/*
+ * CSS for the Sportsteam Widget.
+ */
+
+
+div.widget_sportsteam {
+
+}
+
+div.wp_sportsteams {
+	text-align: center;
+}
+
+div.wp_sportsteam_header {
+	padding: 5px;
+	margin-bottom: 10px;
+}
+div.wp_sportsteam_header h3,
+div.wp_sportsteam_header h4 {
+	margin: 0;
+}
+div.wp_sportsteam_div {
+	float: left;
+	max-width: 33.3%;
+}
+
+div.wp_sportsteam img {
+	max-width: 100%;
+}
+
+div.wp_sportsteam_sep img {
+	margin: 0 auto;
+}
+
+
+div.wp_sportsteam_footer {
+	clear: both;
+	padding: 5px;
+	margin-top: 10px;
+}
+
+div.wp_sportsteam_footer h4 {
+	margin: 0;
+}

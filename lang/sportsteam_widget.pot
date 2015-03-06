@@ -1,0 +1,166 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-03-05 22:17+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: sportsteam-widget.php:35
+msgid "Teams"
+msgstr ""
+
+#: sportsteam-widget.php:36
+msgid "Team"
+msgstr ""
+
+#: sportsteam-widget.php:37 sportsteam-widget.php:38 sportsteam-widget.php:40
+msgid "New Team"
+msgstr ""
+
+#: sportsteam-widget.php:39
+msgid "Edit Team"
+msgstr ""
+
+#: sportsteam-widget.php:41
+msgid "View Team"
+msgstr ""
+
+#: sportsteam-widget.php:42
+msgid "Search Team"
+msgstr ""
+
+#: sportsteam-widget.php:43
+msgid "No Team found"
+msgstr ""
+
+#: sportsteam-widget.php:44
+msgid "No Team found in the Thrash"
+msgstr ""
+
+#: sportsteam-widget.php:46
+msgid "SportsTeams"
+msgstr ""
+
+#: sportsteam-widget.php:63 sportsteam-widget.php:79
+msgid "Classes"
+msgstr ""
+
+#: sportsteam-widget.php:64
+msgid "Class"
+msgstr ""
+
+#: sportsteam-widget.php:65
+msgid "Search Class"
+msgstr ""
+
+#: sportsteam-widget.php:66
+msgid "Popular Classes"
+msgstr ""
+
+#: sportsteam-widget.php:67
+msgid "All Classes"
+msgstr ""
+
+#: sportsteam-widget.php:68
+msgid "Parent Class"
+msgstr ""
+
+#: sportsteam-widget.php:69
+msgid "Edit Class"
+msgstr ""
+
+#: sportsteam-widget.php:70
+msgid "Update Class"
+msgstr ""
+
+#: sportsteam-widget.php:71
+msgid "Add New Class"
+msgstr ""
+
+#: sportsteam-widget.php:72
+msgid "New Class"
+msgstr ""
+
+#: sportsteam-widget.php:73
+msgid "Separate Classes with commas"
+msgstr ""
+
+#: sportsteam-widget.php:74
+msgid "Add or remove Classes"
+msgstr ""
+
+#: sportsteam-widget.php:75
+msgid "Choose from most used Classes"
+msgstr ""
+
+#: sportsteam-widget.php:76
+msgid "No Classes found"
+msgstr ""
+
+#: sportsteam-widget.php:110
+msgid "A widget that shows the next match of a team."
+msgstr ""
+
+#: sportsteam-widget.php:117
+msgid "Next Match"
+msgstr ""
+
+#: sportsteam-widget.php:151
+msgid "OUT"
+msgstr ""
+
+#: sportsteam-widget.php:153
+msgid "HOME"
+msgstr ""
+
+#: sportsteam-widget.php:259
+msgid "Title:"
+msgstr ""
+
+#: sportsteam-widget.php:262
+msgid "Date:"
+msgstr ""
+
+#: sportsteam-widget.php:265
+msgid "Subtitle:"
+msgstr ""
+
+#: sportsteam-widget.php:269
+msgid "Out Match"
+msgstr ""
+
+#: sportsteam-widget.php:271
+msgid "Select Class:"
+msgstr ""
+
+#: sportsteam-widget.php:273
+msgid "All Classes and Teams"
+msgstr ""
+
+#: sportsteam-widget.php:303
+msgid "Select Home Team:"
+msgstr ""
+
+#: sportsteam-widget.php:350
+msgid "Select Out Team:"
+msgstr ""
+
+#: sportsteam-widget.php:374
+msgid "Background Color:"
+msgstr ""
+
+#: sportsteam-widget.php:377
+msgid "Text Color:"
+msgstr ""
