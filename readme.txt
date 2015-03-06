@@ -31,6 +31,11 @@ for the class/level where the team plays.
 
 Email any questions to marcel at timelord dot nl.
 
+== Screenshots ==
+
+1. Frontend of the widget, with both teams for the match displayed.
+2. Backend of the widget, select teams and other metadata.
+
 == Changelog ==
 
 = 2.0 =
