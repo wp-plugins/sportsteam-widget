@@ -1,0 +1,169 @@
+# Team Widget.
+# Copyright (C) 2013 Weblicity en Natwell
+# This file is distributed under the same license as the Team Widget package.
+# Marcel Pol <marcel@timelord.nl>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-03-05 22:17+0100\n"
+"PO-Revision-Date: 2015-03-05 22:19+0100\n"
+"Last-Translator: Marcel Pol <marcel@timelord.nl>\n"
+"Language-Team: NL <marcel@timelord.nl>\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+
+#: sportsteam-widget.php:35
+msgid "Teams"
+msgstr "Teams"
+
+#: sportsteam-widget.php:36
+msgid "Team"
+msgstr "Team"
+
+#: sportsteam-widget.php:37 sportsteam-widget.php:38 sportsteam-widget.php:40
+msgid "New Team"
+msgstr "Nieuw Team"
+
+#: sportsteam-widget.php:39
+msgid "Edit Team"
+msgstr "Bewerk Team"
+
+#: sportsteam-widget.php:41
+msgid "View Team"
+msgstr "Bekijk Team"
+
+#: sportsteam-widget.php:42
+msgid "Search Team"
+msgstr "Team zoeken"
+
+#: sportsteam-widget.php:43
+msgid "No Team found"
+msgstr "Geen Team gevonden"
+
+#: sportsteam-widget.php:44
+msgid "No Team found in the Thrash"
+msgstr "Geen Team gevonden in de Prullenbak"
+
+#: sportsteam-widget.php:46
+msgid "SportsTeams"
+msgstr "SportTeams"
+
+#: sportsteam-widget.php:63 sportsteam-widget.php:79
+msgid "Classes"
+msgstr "Klasses"
+
+#: sportsteam-widget.php:64
+msgid "Class"
+msgstr "Klasse"
+
+#: sportsteam-widget.php:65
+msgid "Search Class"
+msgstr "Klasse zoeken"
+
+#: sportsteam-widget.php:66
+msgid "Popular Classes"
+msgstr "Populaire Klasses"
+
+#: sportsteam-widget.php:67
+msgid "All Classes"
+msgstr "Alle Klasses"
+
+#: sportsteam-widget.php:68
+msgid "Parent Class"
+msgstr "Bovenliggene Klasse"
+
+#: sportsteam-widget.php:69
+msgid "Edit Class"
+msgstr "Bewerk Klasse"
+
+#: sportsteam-widget.php:70
+msgid "Update Class"
+msgstr "Bijwerken Klasse"
+
+#: sportsteam-widget.php:71
+msgid "Add New Class"
+msgstr "Klasse toevoegen"
+
+#: sportsteam-widget.php:72
+msgid "New Class"
+msgstr "Nieuwe Klasse"
+
+#: sportsteam-widget.php:73
+msgid "Separate Classes with commas"
+msgstr "Scheid Klassen met komma"
+
+#: sportsteam-widget.php:74
+msgid "Add or remove Classes"
+msgstr "Toevoegen of verwijderen Klasse"
+
+#: sportsteam-widget.php:75
+msgid "Choose from most used Classes"
+msgstr "Kies uit de meest gebruikte Klasses"
+
+#: sportsteam-widget.php:76
+msgid "No Classes found"
+msgstr "Geen Klasses gevonden"
+
+#: sportsteam-widget.php:110
+msgid "A widget that shows the next match of a team."
+msgstr "Een widget die de volgende wedstrijd toont van een team."
+
+#: sportsteam-widget.php:117
+msgid "Next Match"
+msgstr "Volgende Wedstrijd"
+
+#: sportsteam-widget.php:151
+msgid "OUT"
+msgstr "UIT"
+
+#: sportsteam-widget.php:153
+msgid "HOME"
+msgstr "THUIS"
+
+#: sportsteam-widget.php:259
+msgid "Title:"
+msgstr "Titel:"
+
+#: sportsteam-widget.php:262
+msgid "Date:"
+msgstr "Datum"
+
+#: sportsteam-widget.php:265
+msgid "Subtitle:"
+msgstr "Ondertitel:"
+
+#: sportsteam-widget.php:269
+msgid "Out Match"
+msgstr "Uitwedstrijd"
+
+#: sportsteam-widget.php:271
+msgid "Select Class:"
+msgstr "Selecteer Klasse:"
+
+#: sportsteam-widget.php:273
+msgid "All Classes and Teams"
+msgstr "Alle Klassen en Teams"
+
+#: sportsteam-widget.php:303
+msgid "Select Home Team:"
+msgstr "Selecteer Thuis Team:"
+
+#: sportsteam-widget.php:350
+msgid "Select Out Team:"
+msgstr "Selecteer Uit Team:"
+
+#: sportsteam-widget.php:374
+msgid "Background Color:"
+msgstr "Achtergrond kleur:"
+
+#: sportsteam-widget.php:377
+msgid "Text Color:"
+msgstr "Tekst kleur:"
+
+#~ msgid "First Team"
+#~ msgstr "Eerste Team"
