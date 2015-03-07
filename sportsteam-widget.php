@@ -3,7 +3,7 @@
  * Plugin name: Sportsteam Widget
  * Plugin URI: http://zenoweb.nl
  * Description: A widget that shows the next match of a team.
- * Version: 2.0
+ * Version: 2.1
  * Author: Marcel Pol
  * Author URI: http://zenoweb.nl
  * License: GPLv2
@@ -28,6 +28,10 @@
 	along with this program; if not, write to the Free Software
 	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
+
+
+// Plugin Version
+define('SPORTSTEAM_VER', '2.1');
 
 
 function sportsteam_register_post_type() {
@@ -98,7 +102,7 @@ add_action('plugins_loaded', 'sportsteam_lang');
 
 
 function sportsteam_enqueue_style() {
-	wp_enqueue_style('sportsteam_widget', WP_PLUGIN_URL . '/' . plugin_basename(dirname(__FILE__)) . '/css/sportsteam-widget.css' , 'screen');
+	wp_enqueue_style('sportsteam_widget', WP_PLUGIN_URL . '/' . plugin_basename(dirname(__FILE__)) . '/css/sportsteam-widget.css', 'screen', SPORTSTEAM_VER);
 }
 add_action( 'wp_enqueue_scripts', 'sportsteam_enqueue_style' );
 
@@ -132,7 +136,7 @@ class WP_SportsTeam extends WP_Widget {
 			<div class="wp_sportsteams class_<?php echo $class; ?>">
 				<div class="wp_sportsteam_header"><?php echo $before_title . $title . $after_title; ?></div>
 
-				<div class="wp_sportsteam_div">
+				<div class="wp_sportsteam_div wp_sportsteam_div_first">
 					<?php
 					$team = get_post($post_id);
 					// show featured image
@@ -145,7 +149,7 @@ class WP_SportsTeam extends WP_Widget {
 				</div>
 
 				<div class="wp_sportsteam_div wp_sportsteam_sep">
-					<img src="<?php echo WP_PLUGIN_URL . '/' . plugin_basename(dirname(__FILE__)) . '/images/separator.png'; ?>" alt="Opponent" /><br />
+					<div class="separator"></div>
 					<span><?php
 						if ($out) {
 							_e('OUT','sportsteam_widget');
@@ -155,7 +159,7 @@ class WP_SportsTeam extends WP_Widget {
 					</span>
 				</div>
 
-				<div class="wp_sportsteam_div">
+				<div class="wp_sportsteam_div wp_sportsteam_div_last">
 					<?php
 					$team = get_post($post_id2);
 					// show featured image
@@ -186,27 +190,25 @@ class WP_SportsTeam extends WP_Widget {
 
 				<style type='text/css'>
 					<?php if ($bgcolor) { ?>
-						.wp_sportsteam_header,
-						.wp_sportsteam_footer {
+						.widget_sportsteam {
 							background-color: <?php echo $bgcolor; ?>;
 						}
-					<?php }
+						<?php
+					}
 					if ($textcolor) { ?>
-							.wp_sportsteam_header h3,
-							.wp_sportsteam_header h4,
-							.wp_sportsteam_header a:link,
-							.wp_sportsteam_header a:visited,
-							.wp_sportsteam_header a:active,
-							.wp_sportsteam_header a:hover,
-							.wp_sportsteam_footer h3,
-							.wp_sportsteam_footer h4,
-							.wp_sportsteam_footer a:link,
-							.wp_sportsteam_footer a:visited,
-							.wp_sportsteam_footer a:active,
-							.wp_sportsteam_footer a:hover {
+						.widget_sportsteam,
+						.widget_sportsteam div,
+						.widget_sportsteam span,
+						.widget_sportsteam h3,
+						.widget_sportsteam h4,
+						.widget_sportsteam a:link,
+						.widget_sportsteam a:visited,
+						.widget_sportsteam a:active,
+						.widget_sportsteam a:hover {
 							color: <?php echo $textcolor; ?>;
 						}
-					<?php } ?>
+						<?php
+					} ?>
 				</style>
 
 			</div><?php

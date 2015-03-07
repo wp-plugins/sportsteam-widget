@@ -1,7 +1,7 @@
 
 === Sportsteam Widget ===
 Contributors: mpol
-Tags: sport, sports, widget, team, teams, match, matches, game, games, league, leagues, competition
+Tags: sport, sports, widget, team, teams, match, matches, game, games, league, leagues, competition, soccer
 Requires at least: 3.0
 Tested up to: 4.1
 Stable tag: 2.0
@@ -38,7 +38,13 @@ Email any questions to marcel at timelord dot nl.
 
 == Changelog ==
 
+= 2.1 =
+* 2015-03-07
+* Separator is now in grayscale.
+* Improve HTML/CSS.
+
 = 2.0 =
+* 2015-03-06
 * First public version.
 
 = 1.0 =

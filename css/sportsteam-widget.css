@@ -22,14 +22,23 @@ div.wp_sportsteam_header h4 {
 }
 div.wp_sportsteam_div {
 	float: left;
-	max-width: 33.3%;
+	width: 33.3%;
 }
-
+div.wp_sportsteam_div_last {
+	float: right;
+}
 div.wp_sportsteam img {
-	max-width: 100%;
+	width: 100%;
 }
 
-div.wp_sportsteam_sep img {
+div.wp_sportsteam_sep {
+	width: 33.3%;
+}
+div.wp_sportsteam_sep .separator {
+	background-image: url('../images/separator.png');
+	background-repeat: no-repeat;
+	width: 50px;
+	height: 60px;
 	margin: 0 auto;
 }
 
