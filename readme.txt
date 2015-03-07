@@ -4,7 +4,7 @@ Contributors: mpol
 Tags: sport, sports, widget, team, teams, match, matches, game, games, league, leagues, competition, soccer
 Requires at least: 3.0
 Tested up to: 4.1
-Stable tag: 2.0
+Stable tag: 2.1
 
 A widget that shows the next match of a team.
 
@@ -13,6 +13,10 @@ A widget that shows the next match of a team.
 SportsTeam Widget is a widget that shows the next match of a game.
 It uses a Custom Post Type for sportsteams, together with a Taxonomy
 for the class/level where the team plays.
+
+= Languages =
+
+* nl_NL [Marcel Pol](http://zenoweb.nl)
 
 == Installation ==
 
