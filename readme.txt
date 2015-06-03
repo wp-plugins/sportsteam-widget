@@ -42,6 +42,11 @@ Email any questions to marcel at timelord dot nl.
 
 == Changelog ==
 
+= 2.1.1 =
+* 2015-06-03
+* Add About page.
+* Update pot and nl_NL.
+
 = 2.1 =
 * 2015-03-07
 * Separator is now in grayscale.
