@@ -43,7 +43,7 @@ Email any questions to marcel at timelord dot nl.
 == Changelog ==
 
 = 2.1.2 =
-* 2015-06-05
+* 2015-07-05
 * Use the correct __construct for WP_Widget.
 
 = 2.1.1 =
