@@ -3,7 +3,7 @@
  * Plugin name: Sportsteam Widget
  * Plugin URI: http://zenoweb.nl
  * Description: A widget that shows the next match of a team.
- * Version: 2.1.1
+ * Version: 2.1.2
  * Author: Marcel Pol
  * Author URI: http://zenoweb.nl
  * License: GPLv2
@@ -31,7 +31,7 @@
 
 
 // Plugin Version
-define('SPORTSTEAM_VER', '2.1');
+define('SPORTSTEAM_VER', '2.1.2');
 
 
 function sportsteam_register_post_type() {
@@ -145,9 +145,9 @@ add_action('admin_menu', 'sportsteam_menu');
 
 class WP_SportsTeam extends WP_Widget {
 
-	function WP_SportsTeam() {
+	function __construct() {
 		$widget_ops = array( 'classname' => 'wp_sportsteam', 'description' => __( "A widget that shows the next match of a team.",'sportsteam_widget' ) );
-		$this->WP_Widget('wp_sportsteam', 'SportsTeam Widget', $widget_ops);
+		parent::__construct('wp_sportsteam', 'SportsTeam Widget', $widget_ops);
 	}
 
 	function widget( $args, $instance ) {

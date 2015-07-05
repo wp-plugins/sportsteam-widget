@@ -3,7 +3,7 @@
 Contributors: mpol
 Tags: sport, sports, widget, team, teams, match, matches, game, games, league, leagues, competition, soccer
 Requires at least: 3.0
-Tested up to: 4.2
+Tested up to: 4.3
 Stable tag: 2.1.1
 
 A widget that shows the next match of a team.
@@ -41,6 +41,10 @@ Email any questions to marcel at timelord dot nl.
 2. Backend of the widget, select teams and other metadata.
 
 == Changelog ==
+
+= 2.1.2 =
+* 2015-06-05
+* Use the correct __construct for WP_Widget.
 
 = 2.1.1 =
 * 2015-06-03
