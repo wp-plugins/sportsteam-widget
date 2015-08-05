@@ -4,7 +4,7 @@ Contributors: mpol
 Tags: sport, sports, widget, team, teams, match, matches, game, games, league, leagues, competition, soccer
 Requires at least: 3.0
 Tested up to: 4.3
-Stable tag: 2.1.2
+Stable tag: 2.1.3
 
 A widget that shows the next match of a team.
 
