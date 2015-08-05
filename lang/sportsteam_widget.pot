@@ -1,0 +1,230 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-06-03 11:23+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: sportsteam-widget.php:39
+msgid "Teams"
+msgstr ""
+
+#: sportsteam-widget.php:40
+msgid "Team"
+msgstr ""
+
+#: sportsteam-widget.php:41 sportsteam-widget.php:42 sportsteam-widget.php:44
+msgid "New Team"
+msgstr ""
+
+#: sportsteam-widget.php:43
+msgid "Edit Team"
+msgstr ""
+
+#: sportsteam-widget.php:45
+msgid "View Team"
+msgstr ""
+
+#: sportsteam-widget.php:46
+msgid "Search Team"
+msgstr ""
+
+#: sportsteam-widget.php:47
+msgid "No Team found"
+msgstr ""
+
+#: sportsteam-widget.php:48
+msgid "No Team found in the Thrash"
+msgstr ""
+
+#: sportsteam-widget.php:50
+msgid "SportsTeams"
+msgstr ""
+
+#: sportsteam-widget.php:67 sportsteam-widget.php:83
+msgid "Classes"
+msgstr ""
+
+#: sportsteam-widget.php:68
+msgid "Class"
+msgstr ""
+
+#: sportsteam-widget.php:69
+msgid "Search Class"
+msgstr ""
+
+#: sportsteam-widget.php:70
+msgid "Popular Classes"
+msgstr ""
+
+#: sportsteam-widget.php:71
+msgid "All Classes"
+msgstr ""
+
+#: sportsteam-widget.php:72
+msgid "Parent Class"
+msgstr ""
+
+#: sportsteam-widget.php:73
+msgid "Edit Class"
+msgstr ""
+
+#: sportsteam-widget.php:74
+msgid "Update Class"
+msgstr ""
+
+#: sportsteam-widget.php:75
+msgid "Add New Class"
+msgstr ""
+
+#: sportsteam-widget.php:76
+msgid "New Class"
+msgstr ""
+
+#: sportsteam-widget.php:77
+msgid "Separate Classes with commas"
+msgstr ""
+
+#: sportsteam-widget.php:78
+msgid "Add or remove Classes"
+msgstr ""
+
+#: sportsteam-widget.php:79
+msgid "Choose from most used Classes"
+msgstr ""
+
+#: sportsteam-widget.php:80
+msgid "No Classes found"
+msgstr ""
+
+#: sportsteam-widget.php:113
+msgid "About the Sportsteam Widget"
+msgstr ""
+
+#: sportsteam-widget.php:116
+msgid "This plugin is being maintained by Marcel Pol from"
+msgstr ""
+
+#: sportsteam-widget.php:120
+msgid "Review this plugin."
+msgstr ""
+
+#: sportsteam-widget.php:121
+msgid "If this plugin has any value to you, then please leave a review at"
+msgstr ""
+
+#: sportsteam-widget.php:122
+msgid "The plugin page at wordpress.org."
+msgstr ""
+
+#: sportsteam-widget.php:123
+msgid "the plugin page at wordpress.org"
+msgstr ""
+
+#: sportsteam-widget.php:126
+msgid "Donate to the EFF."
+msgstr ""
+
+#: sportsteam-widget.php:127
+msgid ""
+"The Electronic Frontier Foundation is one of the few organisations that "
+"wants to keep the internet a free place."
+msgstr ""
+
+#: sportsteam-widget.php:128
+msgid "Please donate to the EFF."
+msgstr ""
+
+#: sportsteam-widget.php:130 sportsteam-widget.php:132
+msgid "Donate to the maintainer."
+msgstr ""
+
+#: sportsteam-widget.php:131
+msgid ""
+"If you rather want to donate to the maintainer of the plugin, you can donate "
+"through PayPal."
+msgstr ""
+
+#: sportsteam-widget.php:132
+msgid "Donate through"
+msgstr ""
+
+#: sportsteam-widget.php:132
+msgid "PayPal"
+msgstr ""
+
+#: sportsteam-widget.php:133
+msgid "to"
+msgstr ""
+
+#: sportsteam-widget.php:141
+msgid "About"
+msgstr ""
+
+#: sportsteam-widget.php:149
+msgid "A widget that shows the next match of a team."
+msgstr ""
+
+#: sportsteam-widget.php:156
+msgid "Next Match"
+msgstr ""
+
+#: sportsteam-widget.php:190
+msgid "OUT"
+msgstr ""
+
+#: sportsteam-widget.php:192
+msgid "HOME"
+msgstr ""
+
+#: sportsteam-widget.php:296
+msgid "Title:"
+msgstr ""
+
+#: sportsteam-widget.php:299
+msgid "Date:"
+msgstr ""
+
+#: sportsteam-widget.php:302
+msgid "Subtitle:"
+msgstr ""
+
+#: sportsteam-widget.php:306
+msgid "Out Match"
+msgstr ""
+
+#: sportsteam-widget.php:308
+msgid "Select Class:"
+msgstr ""
+
+#: sportsteam-widget.php:310
+msgid "All Classes and Teams"
+msgstr ""
+
+#: sportsteam-widget.php:340
+msgid "Select Home Team:"
+msgstr ""
+
+#: sportsteam-widget.php:387
+msgid "Select Out Team:"
+msgstr ""
+
+#: sportsteam-widget.php:411
+msgid "Background Color:"
+msgstr ""
+
+#: sportsteam-widget.php:414
+msgid "Text Color:"
+msgstr ""
