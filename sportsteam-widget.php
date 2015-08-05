@@ -3,7 +3,7 @@
  * Plugin name: Sportsteam Widget
  * Plugin URI: http://zenoweb.nl
  * Description: A widget that shows the next match of a team.
- * Version: 2.1.2
+ * Version: 2.1.3
  * Author: Marcel Pol
  * Author URI: http://zenoweb.nl
  * License: GPLv2
@@ -31,7 +31,7 @@
 
 
 // Plugin Version
-define('SPORTSTEAM_VER', '2.1.2');
+define('SPORTSTEAM_VER', '2.1.3');
 
 
 function sportsteam_register_post_type() {
@@ -110,24 +110,24 @@ add_action( 'wp_enqueue_scripts', 'sportsteam_enqueue_style' );
 function sportsteam_about() {
 	?>
 	<div class='wrap'>
-		<h2><?php _e('About the Sportsteam Widget', 'sportsteam_widget'); ?></h2>
+		<h1><?php _e('About the Sportsteam Widget', 'sportsteam_widget'); ?></h1>
 		<div id="poststuff" class="metabox-holder">
 			<div class="widget">
 				<p><?php _e('This plugin is being maintained by Marcel Pol from', 'sportsteam_widget'); ?>
 					<a href="http://zenoweb.nl" target="_blank" title="ZenoWeb">ZenoWeb</a>.
 				</p>
 
-				<h3 class="widget-top"><?php _e('Review this plugin.', 'sportsteam_widget'); ?></h3>
+				<h2 class="widget-top"><?php _e('Review this plugin.', 'sportsteam_widget'); ?></h2>
 				<p><?php _e('If this plugin has any value to you, then please leave a review at', 'sportsteam_widget'); ?>
 					<a href="https://wordpress.org/support/view/plugin-reviews/sportsteam-widget" target="_blank" title="<?php esc_attr_e('The plugin page at wordpress.org.', 'sportsteam_widget'); ?>">
 						<?php _e('the plugin page at wordpress.org', 'sportsteam_widget'); ?></a>.
 				</p>
 
-				<h3 class="widget-top"><?php _e('Donate to the EFF.', 'sportsteam_widget'); ?></h3>
+				<h2 class="widget-top"><?php _e('Donate to the EFF.', 'sportsteam_widget'); ?></h2>
 				<p><?php _e('The Electronic Frontier Foundation is one of the few organisations that wants to keep the internet a free place.', 'sportsteam_widget'); ?></p>
 				<p><a href="https://supporters.eff.org/donate" target="_blank" title="<?php esc_attr_e('Please donate to the EFF.', 'sportsteam_widget'); ?>"><?php _e('Please donate to the EFF.', 'sportsteam_widget'); ?></a></p>
 
-				<h3 class="widget-top"><?php _e('Donate to the maintainer.', 'sportsteam_widget'); ?></h3>
+				<h2 class="widget-top"><?php _e('Donate to the maintainer.', 'sportsteam_widget'); ?></h2>
 				<p><?php _e('If you rather want to donate to the maintainer of the plugin, you can donate through PayPal.', 'sportsteam_widget'); ?></p>
 				<p><?php _e('Donate through', 'sportsteam_widget'); ?> <a href="https://www.paypal.com" target="_blank" title="<?php esc_attr_e('Donate to the maintainer.', 'sportsteam_widget'); ?>"><?php _e('PayPal', 'sportsteam_widget'); ?></a>
 					<?php _e('to', 'sportsteam_widget'); ?> marcel@timelord.nl.

@@ -42,6 +42,10 @@ Email any questions to marcel at timelord dot nl.
 
 == Changelog ==
 
+= 2.1.3 =
+* 2015-08-05
+* Use headings correctly on admin page.
+
 = 2.1.2 =
 * 2015-07-05
 * Use the correct __construct for WP_Widget.
